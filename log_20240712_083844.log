@@ -1,0 +1,618 @@
+2024-07-12 08:38:44 INFO app.py:18 - ***** Starting Train New Training Model *****
+2024-07-12 08:38:44 INFO app.py:21 - ***** Train New Training Model Finished *****
+2024-07-12 08:38:44 INFO app.py:53 - Starting Waitress server...
+2024-07-12 08:38:44 INFO wasyncore.py:486 - Serving on http://0.0.0.0:5000
+2024-07-12 08:40:19 INFO Decorators.py:11 - Received GET request to /api/healthcheck
+2024-07-12 08:40:19 INFO HealthCheckController.py:13 - Server is alive...
+2024-07-12 08:44:36 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:44:36 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:45:01 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:45:01 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:45:01 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5155789852142334
+2024-07-12 08:45:01 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084436.jpg
+2024-07-12 08:45:07 INFO ResultEvaluator.py:11 - Clip min: 0.5981461548750449
+2024-07-12 08:45:07 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:45:07 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:45:07 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:45:09 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:45:09 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:45:11 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:45:11 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:45:11 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.515848159790039
+2024-07-12 08:45:11 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084509.jpg
+2024-07-12 08:45:11 INFO ResultEvaluator.py:11 - Clip min: 0.59831843584974
+2024-07-12 08:45:11 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:45:11 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:45:11 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:45:20 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:45:20 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:45:22 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:45:22 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:45:22 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.531794786453247
+2024-07-12 08:45:22 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084520.jpg
+2024-07-12 08:45:22 INFO ResultEvaluator.py:11 - Clip min: 0.39376431985424454
+2024-07-12 08:45:22 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:45:22 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:45:22 INFO ImageFindController.py:66 - (<Response 1037 bytes [200 OK]>, 200)
+2024-07-12 08:45:34 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:45:34 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:45:36 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:45:36 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:45:36 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5012612342834473
+2024-07-12 08:45:36 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084534.jpg
+2024-07-12 08:45:36 INFO ResultEvaluator.py:11 - Clip min: 0.4316253295398905
+2024-07-12 08:45:36 INFO ResultEvaluator.py:12 - Clip min id: 662b57a15c5f4845fbbac46f
+2024-07-12 08:45:36 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:45:36 INFO ImageFindController.py:66 - (<Response 559 bytes [200 OK]>, 200)
+2024-07-12 08:45:51 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:45:51 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:45:52 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:45:52 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:45:52 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4277443885803223
+2024-07-12 08:45:52 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084551.jpg
+2024-07-12 08:45:52 INFO ResultEvaluator.py:11 - Clip min: 0.41759506246828965
+2024-07-12 08:45:52 INFO ResultEvaluator.py:12 - Clip min id: 662b57a15c5f4845fbbac46f
+2024-07-12 08:45:52 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:45:52 INFO ImageFindController.py:66 - (<Response 559 bytes [200 OK]>, 200)
+2024-07-12 08:46:05 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:05 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:46:06 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:46:06 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:46:06 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5840506553649902
+2024-07-12 08:46:06 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084605.jpg
+2024-07-12 08:46:07 INFO ResultEvaluator.py:11 - Clip min: 0.6300269613419103
+2024-07-12 08:46:07 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:46:07 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:46:07 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:46:08 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:08 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:46:10 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:46:10 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:46:10 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5928850173950195
+2024-07-12 08:46:10 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084608.jpg
+2024-07-12 08:46:10 INFO ResultEvaluator.py:11 - Clip min: 0.6203069517391483
+2024-07-12 08:46:10 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:46:10 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:46:10 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:46:12 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:12 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:46:14 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:46:14 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:46:14 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4310121536254883
+2024-07-12 08:46:14 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084612.jpg
+2024-07-12 08:46:14 INFO ResultEvaluator.py:11 - Clip min: 0.599254711771859
+2024-07-12 08:46:14 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:46:14 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:46:14 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:46:21 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:21 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:46:23 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:46:23 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:46:23 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.430077075958252
+2024-07-12 08:46:23 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084621.jpg
+2024-07-12 08:46:23 INFO ResultEvaluator.py:11 - Clip min: 0.6284409097705348
+2024-07-12 08:46:23 INFO ResultEvaluator.py:12 - Clip min id: 65ba3f71fec20a28480d6cfb
+2024-07-12 08:46:23 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:46:23 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:46:25 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:25 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:46:27 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:46:27 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:46:27 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.6752707958221436
+2024-07-12 08:46:27 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084625.jpg
+2024-07-12 08:46:27 INFO ResultEvaluator.py:11 - Clip min: 0.6214536809578235
+2024-07-12 08:46:27 INFO ResultEvaluator.py:12 - Clip min id: 65ba3f71fec20a28480d6cfb
+2024-07-12 08:46:27 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:46:27 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:46:35 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:35 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:46:37 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:46:37 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:46:37 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5375850200653076
+2024-07-12 08:46:37 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084635.jpg
+2024-07-12 08:46:37 INFO ResultEvaluator.py:11 - Clip min: 0.4052702421148747
+2024-07-12 08:46:37 INFO ResultEvaluator.py:12 - Clip min id: 662b56b65c5f4845fbbac46b
+2024-07-12 08:46:37 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:46:37 INFO ImageFindController.py:66 - (<Response 688 bytes [200 OK]>, 200)
+2024-07-12 08:46:47 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:47 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:46:49 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:46:49 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:46:49 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.512444019317627
+2024-07-12 08:46:49 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084647.jpg
+2024-07-12 08:46:49 INFO ResultEvaluator.py:11 - Clip min: 0.43802449739313115
+2024-07-12 08:46:49 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:46:49 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:46:49 INFO ImageFindController.py:66 - (<Response 1037 bytes [200 OK]>, 200)
+2024-07-12 08:46:59 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:46:59 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:01 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:01 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:01 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.6608333587646484
+2024-07-12 08:47:01 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084659.jpg
+2024-07-12 08:47:01 INFO ResultEvaluator.py:11 - Clip min: 0.4462901977948996
+2024-07-12 08:47:01 INFO ResultEvaluator.py:12 - Clip min id: 65ba4149fec20a28480d6d07
+2024-07-12 08:47:01 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:01 INFO ImageFindController.py:66 - (<Response 1272 bytes [200 OK]>, 200)
+2024-07-12 08:47:13 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:47:13 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:14 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:14 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:14 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4698379039764404
+2024-07-12 08:47:14 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084713.jpg
+2024-07-12 08:47:15 INFO ResultEvaluator.py:11 - Clip min: 0.5750582606841002
+2024-07-12 08:47:15 INFO ResultEvaluator.py:12 - Clip min id: 666bf2016c12d3ad9d17cb71
+2024-07-12 08:47:15 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:15 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:47:16 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:47:16 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:18 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:18 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:18 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5633745193481445
+2024-07-12 08:47:18 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084716.jpg
+2024-07-12 08:47:18 INFO ResultEvaluator.py:11 - Clip min: 0.5799804112391481
+2024-07-12 08:47:18 INFO ResultEvaluator.py:12 - Clip min id: 65c5e7b911059b3be5738cec
+2024-07-12 08:47:18 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:18 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:47:20 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:47:20 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:21 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:21 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:21 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4553923606872559
+2024-07-12 08:47:21 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084720.jpg
+2024-07-12 08:47:22 INFO ResultEvaluator.py:11 - Clip min: 0.5378939834637803
+2024-07-12 08:47:22 INFO ResultEvaluator.py:12 - Clip min id: 65ba453afec20a28480d6d1b
+2024-07-12 08:47:22 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:22 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:47:28 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:47:28 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:30 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:30 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:30 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4696588516235352
+2024-07-12 08:47:30 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084728.jpg
+2024-07-12 08:47:30 INFO ResultEvaluator.py:11 - Clip min: 0.5570489465742995
+2024-07-12 08:47:30 INFO ResultEvaluator.py:12 - Clip min id: 65ba40effec20a28480d6d05
+2024-07-12 08:47:30 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:30 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:47:32 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:47:32 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:33 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:33 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:33 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4623219966888428
+2024-07-12 08:47:33 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084732.jpg
+2024-07-12 08:47:34 INFO ResultEvaluator.py:11 - Clip min: 0.5318932706820587
+2024-07-12 08:47:34 INFO ResultEvaluator.py:12 - Clip min id: 65ba40effec20a28480d6d05
+2024-07-12 08:47:34 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:34 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:47:39 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:47:39 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:41 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:41 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:41 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.3957312107086182
+2024-07-12 08:47:41 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084739.jpg
+2024-07-12 08:47:41 INFO ResultEvaluator.py:11 - Clip min: 0.4269558692076467
+2024-07-12 08:47:41 INFO ResultEvaluator.py:12 - Clip min id: 65d5a02f7ed9003b0c66e5db
+2024-07-12 08:47:41 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:41 INFO ImageFindController.py:66 - (<Response 1864 bytes [200 OK]>, 200)
+2024-07-12 08:47:52 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:47:52 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:47:54 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:47:54 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:47:54 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5793747901916504
+2024-07-12 08:47:54 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084752.jpg
+2024-07-12 08:47:54 INFO ResultEvaluator.py:11 - Clip min: 0.47357999816800744
+2024-07-12 08:47:54 INFO ResultEvaluator.py:12 - Clip min id: 666bf2016c12d3ad9d17cb71
+2024-07-12 08:47:54 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:47:54 INFO ImageFindController.py:66 - (<Response 1435 bytes [200 OK]>, 200)
+2024-07-12 08:48:03 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:48:03 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:48:05 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:48:05 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:48:05 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4064488410949707
+2024-07-12 08:48:05 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084803.jpg
+2024-07-12 08:48:05 INFO ResultEvaluator.py:11 - Clip min: 0.4001763440692059
+2024-07-12 08:48:05 INFO ResultEvaluator.py:12 - Clip min id: 666bf2016c12d3ad9d17cb71
+2024-07-12 08:48:05 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:48:05 INFO ImageFindController.py:66 - (<Response 1435 bytes [200 OK]>, 200)
+2024-07-12 08:48:15 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:48:15 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:48:17 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:48:17 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:48:17 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.428689956665039
+2024-07-12 08:48:17 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084815.jpg
+2024-07-12 08:48:17 INFO ResultEvaluator.py:11 - Clip min: 0.41543776628150386
+2024-07-12 08:48:17 INFO ResultEvaluator.py:12 - Clip min id: 666bf2016c12d3ad9d17cb71
+2024-07-12 08:48:17 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:48:17 INFO ImageFindController.py:66 - (<Response 1435 bytes [200 OK]>, 200)
+2024-07-12 08:48:26 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:48:26 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:48:28 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:48:28 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:48:28 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.43110990524292
+2024-07-12 08:48:28 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084826.jpg
+2024-07-12 08:48:28 INFO ResultEvaluator.py:11 - Clip min: 0.4583032238203038
+2024-07-12 08:48:28 INFO ResultEvaluator.py:12 - Clip min id: 666bf2016c12d3ad9d17cb71
+2024-07-12 08:48:28 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:48:28 INFO ImageFindController.py:66 - (<Response 1435 bytes [200 OK]>, 200)
+2024-07-12 08:48:40 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:48:40 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:48:42 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:48:42 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:48:42 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.657034158706665
+2024-07-12 08:48:42 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084840.jpg
+2024-07-12 08:48:42 INFO ResultEvaluator.py:11 - Clip min: 0.40203898638975366
+2024-07-12 08:48:42 INFO ResultEvaluator.py:12 - Clip min id: 65ba42f5fec20a28480d6d11
+2024-07-12 08:48:42 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:48:42 INFO ImageFindController.py:66 - (<Response 310 bytes [200 OK]>, 200)
+2024-07-12 08:48:54 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:48:54 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:48:55 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:48:55 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:48:55 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.40934419631958
+2024-07-12 08:48:55 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084854.jpg
+2024-07-12 08:48:55 INFO ResultEvaluator.py:11 - Clip min: 0.47910865570686556
+2024-07-12 08:48:55 INFO ResultEvaluator.py:12 - Clip min id: 65ba42f5fec20a28480d6d11
+2024-07-12 08:48:55 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:48:55 INFO ImageFindController.py:66 - (<Response 310 bytes [200 OK]>, 200)
+2024-07-12 08:49:05 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:49:05 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:49:07 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:49:07 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:49:07 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4427754878997803
+2024-07-12 08:49:07 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084905.jpg
+2024-07-12 08:49:07 INFO ResultEvaluator.py:11 - Clip min: 0.39521968963914034
+2024-07-12 08:49:07 INFO ResultEvaluator.py:12 - Clip min id: 65ba427cfec20a28480d6d0f
+2024-07-12 08:49:07 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:49:07 INFO ImageFindController.py:66 - (<Response 947 bytes [200 OK]>, 200)
+2024-07-12 08:49:17 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:49:17 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:49:18 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:49:18 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:49:18 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5761809349060059
+2024-07-12 08:49:18 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084917.jpg
+2024-07-12 08:49:18 INFO ResultEvaluator.py:11 - Clip min: 0.4357253645471141
+2024-07-12 08:49:18 INFO ResultEvaluator.py:12 - Clip min id: 65ba427cfec20a28480d6d0f
+2024-07-12 08:49:18 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:49:18 INFO ImageFindController.py:66 - (<Response 947 bytes [200 OK]>, 200)
+2024-07-12 08:49:29 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:49:29 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:49:31 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:49:31 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:49:31 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.445605993270874
+2024-07-12 08:49:31 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084929.jpg
+2024-07-12 08:49:31 INFO ResultEvaluator.py:11 - Clip min: 0.44201826742199096
+2024-07-12 08:49:31 INFO ResultEvaluator.py:12 - Clip min id: 65ba422dfec20a28480d6d0d
+2024-07-12 08:49:31 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:49:31 INFO ImageFindController.py:66 - (<Response 702 bytes [200 OK]>, 200)
+2024-07-12 08:49:42 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:49:42 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:49:43 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:49:43 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:49:43 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4775903224945068
+2024-07-12 08:49:43 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084942.jpg
+2024-07-12 08:49:44 INFO ResultEvaluator.py:11 - Clip min: 0.39122633972372933
+2024-07-12 08:49:44 INFO ResultEvaluator.py:12 - Clip min id: 65ba422dfec20a28480d6d0d
+2024-07-12 08:49:44 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:49:44 INFO ImageFindController.py:66 - (<Response 702 bytes [200 OK]>, 200)
+2024-07-12 08:49:52 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:49:52 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:49:54 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:49:54 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:49:54 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4856579303741455
+2024-07-12 08:49:54 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_084952.jpg
+2024-07-12 08:49:54 INFO ResultEvaluator.py:11 - Clip min: 0.39373225896395153
+2024-07-12 08:49:54 INFO ResultEvaluator.py:12 - Clip min id: 65ba41e4fec20a28480d6d0b
+2024-07-12 08:49:54 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:49:54 INFO ImageFindController.py:66 - (<Response 632 bytes [200 OK]>, 200)
+2024-07-12 08:50:03 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:50:03 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:50:04 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:50:04 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:50:04 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4274461269378662
+2024-07-12 08:50:04 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085003.jpg
+2024-07-12 08:50:05 INFO ResultEvaluator.py:11 - Clip min: 0.44603991982099156
+2024-07-12 08:50:05 INFO ResultEvaluator.py:12 - Clip min id: 65ba4198fec20a28480d6d09
+2024-07-12 08:50:05 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:50:05 INFO ImageFindController.py:66 - (<Response 769 bytes [200 OK]>, 200)
+2024-07-12 08:50:20 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:50:20 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:50:22 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:50:22 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:50:22 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.599663257598877
+2024-07-12 08:50:22 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085020.jpg
+2024-07-12 08:50:22 INFO ResultEvaluator.py:11 - Clip min: 0.4770344078096462
+2024-07-12 08:50:22 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:50:22 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:50:22 INFO ImageFindController.py:66 - (<Response 1037 bytes [200 OK]>, 200)
+2024-07-12 08:50:32 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:50:32 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:50:35 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:50:35 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:50:35 INFO FeaturesExtractionService.py:121 - Time taken in sec = 2.217379570007324
+2024-07-12 08:50:35 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085032.jpg
+2024-07-12 08:50:35 INFO ResultEvaluator.py:11 - Clip min: 0.3670025753710187
+2024-07-12 08:50:35 INFO ResultEvaluator.py:12 - Clip min id: 65ba4b3afec20a28480d6d35
+2024-07-12 08:50:35 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:50:35 INFO ImageFindController.py:66 - (<Response 995 bytes [200 OK]>, 200)
+2024-07-12 08:50:49 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:50:49 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:50:51 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:50:51 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:50:51 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.8824748992919922
+2024-07-12 08:50:51 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085049.jpg
+2024-07-12 08:50:51 INFO ResultEvaluator.py:11 - Clip min: 0.4257060683679079
+2024-07-12 08:50:51 INFO ResultEvaluator.py:12 - Clip min id: 65ba4bc1fec20a28480d6d37
+2024-07-12 08:50:51 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:50:51 INFO ImageFindController.py:66 - (<Response 761 bytes [200 OK]>, 200)
+2024-07-12 08:51:03 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:51:03 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:51:04 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:51:04 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:51:04 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4538500308990479
+2024-07-12 08:51:04 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085103.jpg
+2024-07-12 08:51:04 INFO ResultEvaluator.py:11 - Clip min: 0.40622145415374283
+2024-07-12 08:51:04 INFO ResultEvaluator.py:12 - Clip min id: 65ba4ac0fec20a28480d6d33
+2024-07-12 08:51:04 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:51:04 INFO ImageFindController.py:66 - (<Response 637 bytes [200 OK]>, 200)
+2024-07-12 08:51:14 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:51:14 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:51:16 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:51:16 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:51:16 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.75132155418396
+2024-07-12 08:51:16 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085114.jpg
+2024-07-12 08:51:16 INFO ResultEvaluator.py:11 - Clip min: 0.30282973416265063
+2024-07-12 08:51:16 INFO ResultEvaluator.py:12 - Clip min id: 65ba4a6dfec20a28480d6d31
+2024-07-12 08:51:16 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:51:16 INFO ImageFindController.py:66 - (<Response 583 bytes [200 OK]>, 200)
+2024-07-12 08:51:31 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:51:31 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:51:33 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:51:33 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:51:33 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.3911840915679932
+2024-07-12 08:51:33 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085131.jpg
+2024-07-12 08:51:33 INFO ResultEvaluator.py:11 - Clip min: 0.4589794448617855
+2024-07-12 08:51:33 INFO ResultEvaluator.py:12 - Clip min id: 65ba47cafec20a28480d6d25
+2024-07-12 08:51:33 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:51:33 INFO ImageFindController.py:66 - (<Response 438 bytes [200 OK]>, 200)
+2024-07-12 08:51:43 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:51:43 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:51:45 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:51:45 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:51:45 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5163283348083496
+2024-07-12 08:51:45 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085143.jpg
+2024-07-12 08:51:45 INFO ResultEvaluator.py:11 - Clip min: 0.4056120813207366
+2024-07-12 08:51:45 INFO ResultEvaluator.py:12 - Clip min id: 65ba47cafec20a28480d6d25
+2024-07-12 08:51:45 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:51:45 INFO ImageFindController.py:66 - (<Response 438 bytes [200 OK]>, 200)
+2024-07-12 08:51:57 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:51:57 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:51:58 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:51:58 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:51:58 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.453763484954834
+2024-07-12 08:51:58 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085157.jpg
+2024-07-12 08:51:59 INFO ResultEvaluator.py:11 - Clip min: 0.39361678780318454
+2024-07-12 08:51:59 INFO ResultEvaluator.py:12 - Clip min id: 65ba4835fec20a28480d6d27
+2024-07-12 08:51:59 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:51:59 INFO ImageFindController.py:66 - (<Response 1018 bytes [200 OK]>, 200)
+2024-07-12 08:52:07 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:52:07 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:52:09 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:52:09 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:52:09 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.469803810119629
+2024-07-12 08:52:09 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085207.jpg
+2024-07-12 08:52:09 INFO ResultEvaluator.py:11 - Clip min: 0.3102527205422894
+2024-07-12 08:52:09 INFO ResultEvaluator.py:12 - Clip min id: 65e8c64d7ed9003b0c66e5e5
+2024-07-12 08:52:09 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:52:09 INFO ImageFindController.py:66 - (<Response 711 bytes [200 OK]>, 200)
+2024-07-12 08:52:20 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:52:20 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:52:21 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:52:21 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:52:21 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5305533409118652
+2024-07-12 08:52:21 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085220.jpg
+2024-07-12 08:52:22 INFO ResultEvaluator.py:11 - Clip min: 0.3159459750525514
+2024-07-12 08:52:22 INFO ResultEvaluator.py:12 - Clip min id: 65ba4973fec20a28480d6d2d
+2024-07-12 08:52:22 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:52:22 INFO ImageFindController.py:66 - (<Response 1364 bytes [200 OK]>, 200)
+2024-07-12 08:52:33 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:52:33 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:52:35 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:52:35 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:52:35 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4315900802612305
+2024-07-12 08:52:35 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085233.jpg
+2024-07-12 08:52:35 INFO ResultEvaluator.py:11 - Clip min: 0.3722569449765659
+2024-07-12 08:52:35 INFO ResultEvaluator.py:12 - Clip min id: 65ba49fafec20a28480d6d2f
+2024-07-12 08:52:35 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:52:35 INFO ImageFindController.py:66 - (<Response 359 bytes [200 OK]>, 200)
+2024-07-12 08:52:48 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:52:48 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:52:50 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:52:50 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:52:50 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4389612674713135
+2024-07-12 08:52:50 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085248.jpg
+2024-07-12 08:52:50 INFO ResultEvaluator.py:11 - Clip min: 0.44352082120367864
+2024-07-12 08:52:50 INFO ResultEvaluator.py:12 - Clip min id: 65ba4730fec20a28480d6d23
+2024-07-12 08:52:50 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:52:50 INFO ImageFindController.py:66 - (<Response 415 bytes [200 OK]>, 200)
+2024-07-12 08:53:01 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:53:01 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:53:03 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:53:03 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:53:03 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4357991218566895
+2024-07-12 08:53:03 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085301.jpg
+2024-07-12 08:53:03 INFO ResultEvaluator.py:11 - Clip min: 0.45961530778191273
+2024-07-12 08:53:03 INFO ResultEvaluator.py:12 - Clip min id: 65ba4dd6fec20a28480d6d39
+2024-07-12 08:53:03 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:53:03 INFO ImageFindController.py:66 - (<Response 1037 bytes [200 OK]>, 200)
+2024-07-12 08:53:18 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:53:18 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:53:19 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:53:19 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:53:19 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4198696613311768
+2024-07-12 08:53:19 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085318.jpg
+2024-07-12 08:53:20 INFO ResultEvaluator.py:11 - Clip min: 0.45530894348598017
+2024-07-12 08:53:20 INFO ResultEvaluator.py:12 - Clip min id: 65ba4483fec20a28480d6d19
+2024-07-12 08:53:20 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:53:20 INFO ImageFindController.py:66 - (<Response 684 bytes [200 OK]>, 200)
+2024-07-12 08:53:30 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:53:30 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:53:32 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:53:32 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:53:32 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4397296905517578
+2024-07-12 08:53:32 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085330.jpg
+2024-07-12 08:53:32 INFO ResultEvaluator.py:11 - Clip min: 0.40076483367490423
+2024-07-12 08:53:32 INFO ResultEvaluator.py:12 - Clip min id: 65ba453afec20a28480d6d1b
+2024-07-12 08:53:32 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:53:32 INFO ImageFindController.py:66 - (<Response 477 bytes [200 OK]>, 200)
+2024-07-12 08:53:50 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:53:50 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:53:51 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:53:51 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:53:51 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4214262962341309
+2024-07-12 08:53:51 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085350.jpg
+2024-07-12 08:53:51 INFO ResultEvaluator.py:11 - Clip min: 0.4959592973899852
+2024-07-12 08:53:51 INFO ResultEvaluator.py:12 - Clip min id: 65c5e7b911059b3be5738cec
+2024-07-12 08:53:51 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:53:51 INFO ImageFindController.py:66 - (<Response 387 bytes [200 OK]>, 200)
+2024-07-12 08:54:04 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:54:05 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:54:06 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:54:06 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:54:06 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.406970500946045
+2024-07-12 08:54:06 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085405.jpg
+2024-07-12 08:54:06 INFO ResultEvaluator.py:11 - Clip min: 0.3708305551341548
+2024-07-12 08:54:06 INFO ResultEvaluator.py:12 - Clip min id: 65d5a4807ed9003b0c66e5e3
+2024-07-12 08:54:06 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:54:06 INFO ImageFindController.py:66 - (<Response 503 bytes [200 OK]>, 200)
+2024-07-12 08:54:15 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:54:15 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:54:17 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:54:17 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:54:17 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4385278224945068
+2024-07-12 08:54:17 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085415.jpg
+2024-07-12 08:54:17 INFO ResultEvaluator.py:11 - Clip min: 0.44052688902245696
+2024-07-12 08:54:17 INFO ResultEvaluator.py:12 - Clip min id: 65ba4635fec20a28480d6d1f
+2024-07-12 08:54:17 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:54:17 INFO ImageFindController.py:66 - (<Response 670 bytes [200 OK]>, 200)
+2024-07-12 08:54:28 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:54:28 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:54:29 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:54:29 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:54:29 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5526809692382812
+2024-07-12 08:54:29 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085428.jpg
+2024-07-12 08:54:30 INFO ResultEvaluator.py:11 - Clip min: 0.40534355064683797
+2024-07-12 08:54:30 INFO ResultEvaluator.py:12 - Clip min id: 65d5a3b87ed9003b0c66e5e1
+2024-07-12 08:54:30 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:54:30 INFO ImageFindController.py:66 - (<Response 538 bytes [200 OK]>, 200)
+2024-07-12 08:54:38 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:54:38 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:54:40 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:54:40 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:54:40 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5943942070007324
+2024-07-12 08:54:40 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085438.jpg
+2024-07-12 08:54:40 INFO ResultEvaluator.py:11 - Clip min: 0.4771098358817611
+2024-07-12 08:54:40 INFO ResultEvaluator.py:12 - Clip min id: 662b653c5c5f4845fbbac477
+2024-07-12 08:54:40 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:54:40 INFO ImageFindController.py:66 - (<Response 406 bytes [200 OK]>, 200)
+2024-07-12 08:54:55 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:54:55 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:54:57 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:54:57 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:54:57 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.7981455326080322
+2024-07-12 08:54:57 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085455.jpg
+2024-07-12 08:54:57 INFO ResultEvaluator.py:11 - Clip min: 0.41622657456538636
+2024-07-12 08:54:57 INFO ResultEvaluator.py:12 - Clip min id: 662b57ff5c5f4845fbbac471
+2024-07-12 08:54:57 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:54:57 INFO ImageFindController.py:66 - (<Response 465 bytes [200 OK]>, 200)
+2024-07-12 08:55:10 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:55:10 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:55:12 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:55:12 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:55:12 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4671733379364014
+2024-07-12 08:55:12 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085510.jpg
+2024-07-12 08:55:12 INFO ResultEvaluator.py:11 - Clip min: 0.41835067018043265
+2024-07-12 08:55:12 INFO ResultEvaluator.py:12 - Clip min id: 662b57a15c5f4845fbbac46f
+2024-07-12 08:55:12 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:55:12 INFO ImageFindController.py:66 - (<Response 559 bytes [200 OK]>, 200)
+2024-07-12 08:55:23 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:55:23 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:55:25 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:55:25 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:55:25 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.3685839176177979
+2024-07-12 08:55:25 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085523.jpg
+2024-07-12 08:55:25 INFO ResultEvaluator.py:11 - Clip min: 0.46062563818012087
+2024-07-12 08:55:25 INFO ResultEvaluator.py:12 - Clip min id: 662b57a15c5f4845fbbac46f
+2024-07-12 08:55:25 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:55:25 INFO ImageFindController.py:66 - (<Response 559 bytes [200 OK]>, 200)
+2024-07-12 08:55:38 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:55:38 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:55:40 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:55:40 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:55:40 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.564018726348877
+2024-07-12 08:55:40 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085538.jpg
+2024-07-12 08:55:40 INFO ResultEvaluator.py:11 - Clip min: 0.4131358140567731
+2024-07-12 08:55:40 INFO ResultEvaluator.py:12 - Clip min id: 662b57a15c5f4845fbbac46f
+2024-07-12 08:55:40 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:55:40 INFO ImageFindController.py:66 - (<Response 559 bytes [200 OK]>, 200)
+2024-07-12 08:55:50 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:55:50 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:55:52 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:55:52 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:55:52 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.8169231414794922
+2024-07-12 08:55:52 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085550.jpg
+2024-07-12 08:55:52 INFO ResultEvaluator.py:11 - Clip min: 0.3807597295234829
+2024-07-12 08:55:52 INFO ResultEvaluator.py:12 - Clip min id: 662b56b65c5f4845fbbac46b
+2024-07-12 08:55:52 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:55:52 INFO ImageFindController.py:66 - (<Response 688 bytes [200 OK]>, 200)
+2024-07-12 08:56:03 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:56:03 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:56:05 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:56:05 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:56:05 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.38521409034729
+2024-07-12 08:56:05 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085603.jpg
+2024-07-12 08:56:05 INFO ResultEvaluator.py:11 - Clip min: 0.5482576123257218
+2024-07-12 08:56:05 INFO ResultEvaluator.py:12 - Clip min id: 662b56b65c5f4845fbbac46b
+2024-07-12 08:56:05 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:56:05 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:56:08 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:56:08 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:56:10 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:56:10 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:56:10 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.3911614418029785
+2024-07-12 08:56:10 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085608.jpg
+2024-07-12 08:56:10 INFO ResultEvaluator.py:11 - Clip min: 0.5506846882877505
+2024-07-12 08:56:10 INFO ResultEvaluator.py:12 - Clip min id: 662b56b65c5f4845fbbac46b
+2024-07-12 08:56:10 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:56:10 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:56:12 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:56:12 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:56:13 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:56:13 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:56:13 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.4854202270507812
+2024-07-12 08:56:13 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085612.jpg
+2024-07-12 08:56:14 INFO ResultEvaluator.py:11 - Clip min: 0.5913618361095296
+2024-07-12 08:56:14 INFO ResultEvaluator.py:12 - Clip min id: 666bf2016c12d3ad9d17cb71
+2024-07-12 08:56:14 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:56:14 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
+2024-07-12 08:56:20 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:56:20 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:56:21 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:56:21 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:56:21 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.3962037563323975
+2024-07-12 08:56:21 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085620.jpg
+2024-07-12 08:56:21 INFO ResultEvaluator.py:11 - Clip min: 0.4405189341517179
+2024-07-12 08:56:21 INFO ResultEvaluator.py:12 - Clip min id: 662b56b65c5f4845fbbac46b
+2024-07-12 08:56:21 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:56:21 INFO ImageFindController.py:66 - (<Response 688 bytes [200 OK]>, 200)
+2024-07-12 08:56:32 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-07-12 08:56:32 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-07-12 08:56:34 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-07-12 08:56:34 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-07-12 08:56:34 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5163872241973877
+2024-07-12 08:56:34 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240712_085632.jpg
+2024-07-12 08:56:34 INFO ResultEvaluator.py:11 - Clip min: 0.45566839969519135
+2024-07-12 08:56:34 INFO ResultEvaluator.py:12 - Clip min id: 662b56b65c5f4845fbbac46b
+2024-07-12 08:56:34 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-07-12 08:56:34 INFO ImageFindController.py:66 - (<Response 688 bytes [200 OK]>, 200)
+2024-07-12 10:16:40 INFO Decorators.py:11 - Received GET request to /api/healthcheck
+2024-07-12 10:16:40 INFO HealthCheckController.py:13 - Server is alive...

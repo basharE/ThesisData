@@ -1,0 +1,18 @@
+2024-05-03 11:13:46 INFO app.py:18 - ***** Starting Train New Training Model *****
+2024-05-03 11:13:46 INFO app.py:21 - ***** Train New Training Model Finished *****
+2024-05-03 11:13:46 INFO app.py:53 - Starting Waitress server...
+2024-05-03 11:13:46 INFO wasyncore.py:486 - Serving on http://0.0.0.0:5000
+2024-05-03 11:14:01 INFO ImageFindController.py:71 - ***** Starting Finding Image *****
+2024-05-03 11:14:38 INFO ImageFindController.py:71 - ***** Starting Finding Image *****
+2024-05-03 11:14:45 INFO Decorators.py:11 - Received GET request to /api/healthcheck
+2024-05-03 11:14:45 INFO HealthCheckController.py:13 - Server is alive...
+2024-05-03 11:15:18 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-05-03 11:15:18 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-05-03 11:15:27 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-05-03 11:15:27 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-05-03 11:15:27 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.5624444484710693
+2024-05-03 11:15:27 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240503_111518.jpg
+2024-05-03 11:15:31 INFO ResultEvaluator.py:11 - Clip min: 0.41658957400684776
+2024-05-03 11:15:31 INFO ResultEvaluator.py:12 - Clip min id: 662f61e44583bedde0f7e8c7
+2024-05-03 11:15:31 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-05-03 11:15:31 INFO ImageFindController.py:66 - (<Response 1424 bytes [200 OK]>, 200)

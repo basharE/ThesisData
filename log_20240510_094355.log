@@ -1,0 +1,95 @@
+2024-05-10 09:43:55 INFO app.py:18 - ***** Starting Train New Training Model *****
+2024-05-10 09:43:55 INFO app.py:21 - ***** Train New Training Model Finished *****
+2024-05-10 09:43:55 INFO app.py:53 - Starting Waitress server...
+2024-05-10 09:43:55 INFO wasyncore.py:486 - Serving on http://0.0.0.0:5000
+2024-05-10 09:44:22 INFO Decorators.py:11 - Received GET request to /api/healthcheck
+2024-05-10 09:44:22 INFO HealthCheckController.py:13 - Server is alive...
+2024-05-10 09:44:28 INFO Decorators.py:11 - Received GET request to /api/healthcheck
+2024-05-10 09:44:28 INFO HealthCheckController.py:13 - Server is alive...
+2024-05-10 09:44:38 INFO ImageFindController.py:33 - ***** Starting Finding Image *****
+2024-05-10 09:44:38 ERROR ImageFindService.py:35 - Error processing request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-10 09:44:38 ERROR app.py:838 - Exception on /api/find/image_ [POST]
+Traceback (most recent call last):
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\Documents\MatchingService-master_v9\MatchingService-master\controller\ImageFindController.py", line 41, in find_image_
+    db_images_data_frame, image_path = ImageFindService.handle_request_(request)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2024-05-10 09:45:35 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-05-10 09:45:35 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-05-10 09:48:31 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-05-10 09:48:31 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-05-10 09:48:54 INFO ImageFindController.py:33 - ***** Starting Finding Image *****
+2024-05-10 09:48:54 ERROR ImageFindService.py:35 - Error processing request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2024-05-10 09:48:54 ERROR app.py:838 - Exception on /api/find/image_ [POST]
+Traceback (most recent call last):
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\Documents\MatchingService-master_v9\MatchingService-master\controller\ImageFindController.py", line 41, in find_image_
+    db_images_data_frame, image_path = ImageFindService.handle_request_(request)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2024-05-10 09:49:01 INFO Decorators.py:11 - Received GET request to /api/healthcheck
+2024-05-10 09:49:01 INFO HealthCheckController.py:13 - Server is alive...
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.6718230247497559
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240510_094535.jpg
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.6566085815429688
+2024-05-10 09:50:02 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240510_094831.jpg
+2024-05-10 09:50:02 ERROR ImageFindService.py:35 - Error processing request: 'MongoDBDeserializer' object has no attribute 'collection'
+2024-05-10 09:50:02 ERROR app.py:838 - Exception on /api/find/imageoptimized [POST]
+Traceback (most recent call last):
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\AppData\Roaming\Python\Python311\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bashar\Documents\MatchingService-master_v9\MatchingService-master\controller\ImageFindController.py", line 60, in find_optimized_image
+    db_images_data_frame, image_path = ImageFindService.handle_request_(request)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object
+2024-05-10 09:50:05 INFO ImageFindController.py:52 - ***** Starting Finding Image *****
+2024-05-10 09:50:05 INFO ImageFindService.py:29 - Received request for image: image.png
+2024-05-10 09:50:07 INFO ResultEvaluator.py:11 - Clip min: 0.46956145967106455
+2024-05-10 09:50:07 INFO ResultEvaluator.py:12 - Clip min id: 662f686f4583bedde0f7e8c9
+2024-05-10 09:50:07 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-05-10 09:50:07 INFO ImageFindController.py:66 - (<Response 409 bytes [200 OK]>, 200)
+2024-05-10 09:50:07 INFO FeaturesExtractionService.py:119 - Type = <class 'numpy.ndarray'>
+2024-05-10 09:50:07 INFO FeaturesExtractionService.py:120 - Shape of feature_list = (1, 768)
+2024-05-10 09:50:07 INFO FeaturesExtractionService.py:121 - Time taken in sec = 1.773599624633789
+2024-05-10 09:50:07 INFO FeaturesExtractionService.py:122 - Image location: files/image/input_image_20240510_095005.jpg
+2024-05-10 09:50:07 INFO ResultEvaluator.py:11 - Clip min: 0.5215209593135369
+2024-05-10 09:50:07 INFO ResultEvaluator.py:12 - Clip min id: 662f686f4583bedde0f7e8c9
+2024-05-10 09:50:07 INFO ImageFindController.py:65 - ***** Finding Image Finished *****
+2024-05-10 09:50:07 INFO ImageFindController.py:66 - (<Response 3 bytes [200 OK]>, 404)
